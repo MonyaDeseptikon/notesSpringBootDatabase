@@ -4,7 +4,7 @@ import jakarta.persistence.Column;
 
 import java.sql.*;
 import java.util.ArrayList;
-//Простой класс для создания БД и таблицыmySQL
+//Простой класс для создания БД и таблицы mySQL и проверки того, что есть в БД
 public class JDBC {
     private static final String url = "jdbc:mysql://localhost:3306";
     private static final String user = "user";
